@@ -1,14 +1,15 @@
 import React from 'react';
 import "./App.css"
-import {Contrainer} from 'sementic-ui-react'
+import 'semantic-ui-css/semantic.min.css'; // Import Semantic UI CSS
+import { Container } from 'semantic-ui-react'; // Import Container from Semantic UI React
 import ToDoList from './ToDoList'
 
 function App() {
   return (
     <div>
-      <Contrainer>
+      <Container>
         <ToDoList/>
-      </Contrainer>
+      </Container>
     </div>
   )
 }
